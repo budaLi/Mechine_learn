@@ -55,7 +55,19 @@
        KD树是一种二叉树数据结构，可以用来进行高效的KNN计算。
        参考资料：
                 https://www.joinquant.com/view/community/detail/dd60bd4e89761b916fe36dc4d14bb272
-                https://zhuanlan.zhihu.com/p/23966698
+                推荐：https://zhuanlan.zhihu.com/p/23966698
+
+#### 1.4 Locality Sensitive Hashing（局部敏感哈希 LSH）
+      相关资料：
+               https://colobu.com/2018/08/16/locality-sensitive-hashing/
+               https://zhuanlan.zhihu.com/p/80638247
+       作用：
+               海量高维数据相似性度量算法
+       核心思想：
+                在原空间中很近（相似）的两个点，在经过LSH哈希函数哈希后的值，大概率是一样的，会放在一个桶中，相反，两个不相似的值，它们的哈希值
+                相等的概率很小（很小？难道还是会出现在一个桶中？）。
+                这样在高维数据集中计算两个数据的相似度，就可以在一个桶中查找，而不用和每个点进行对比。
+
 
 ## 二.SVM与集成模型
 ## 三.无监督模型与序列模型
