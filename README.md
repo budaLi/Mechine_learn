@@ -1,6 +1,9 @@
 参照贪心学院 机器学习高阶课程大纲 进行学习
+
 资金充足的情况下鼓励大家报名参加专业的培训~
+
 学习时要把参考资料仔细过一下哦，不重要的部分只要了解就好啦
+
 ## 一.机器学习基础与凸优化
 #### 1.1 kNN和Weighted kNN
     参考资料：
@@ -69,7 +72,7 @@
                 相等的概率很小（很小？难道还是会出现在一个桶中？）。
                 这样在高维数据集中计算两个数据的相似度，就可以在一个桶中查找，而不用和每个点进行对比。
 
-### 1.5 线性回归模型
+#### 1.5 线性回归模型
       相关资料：
                 https://zhuanlan.zhihu.com/p/40141010
                 https://easyai.tech/ai-definition/linear-regression/
@@ -94,7 +97,7 @@
                     <3.交叉验证是评价预测模型的最佳方法。
                     <4. ...
 
-### 1.6 Bias-Variance Trade-off 偏差方差权衡
+#### 1.6 Bias-Variance Trade-off 偏差方差权衡
         个人理解为：模型过拟合和欠拟合权衡
         参考资料：
                 https://liam.page/2017/03/25/bias-variance-tradeoff/
@@ -118,7 +121,7 @@
 
         参考资料已经讲的很好，建议深刻理解。
 
-### 1.7 正则的使用：L1,L2,L-inifity Norm
+#### 1.7 正则的使用：L1,L2,L-inifity Norm
         参考资料：
                 https://blog.csdn.net/w5688414/article/details/78046960
                 https://zhuanlan.zhihu.com/p/26884695
@@ -132,6 +135,13 @@
                     L1 范数损失函数，也被称为最小绝对值偏差(LAD）,最小绝对值误差（LAE）,总的来说，它是把目标值和估计值的绝对差值的总和最小化。
                     L2 范数损失函数，也被称为最小平方误差（LSE）,总的来说，它是把目标值和估计值的差值的平方和最小化。
                     对于大多数CNN网络，我们一般是使用L2-loss而不是L1-loss，因为L2-loss的收敛速度要比L1-loss要快得多。
+
+####  1.8 LASSO,Coordinate Descent,ElasticNet
+       说实话，看的不是很懂~  有机会再重新看吧
+       参考资料：
+                https://zhuanlan.zhihu.com/p/46999826
+
+#### 1.9 逻辑回归与最大似然
 
 ## 二.SVM与集成模型
 ## 三.无监督模型与序列模型
